@@ -196,6 +196,15 @@ mark { background: rgba(255,255,255,.3); color: #FFFFFF; padding: 0 2px; border-
 .footer a:hover { color: var(--accent-light); }
 .footer-bottom { text-align: center; color: var(--text-muted); font-size: 13px; margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--border); }
 
+/* simple centered community footer */
+.footer-simple { text-align: center; }
+.footer-simple h4 { font-family: 'Playfair Display', serif; color: var(--accent); font-size: 26px; font-weight: 800; margin-bottom: 22px; }
+.footer-skool { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-bottom: 26px; }
+.footer-skool .btn { display: inline-flex; margin: 0; color: var(--bg-primary); }
+.footer-simple .brand-name { font-weight: 800; color: var(--text-primary); font-size: 17px; margin-bottom: 4px; }
+.footer-simple .brand-site a { color: var(--text-muted); font-weight: 700; }
+.footer-simple .brand-site a:hover { color: var(--accent-light); }
+
 /* ---------- breadcrumb ---------- */
 .crumb { color: var(--text-muted); font-size: 14px; padding: 24px 0 6px; }
 .crumb a:hover { color: var(--accent-light); }
@@ -301,26 +310,15 @@ mark { background: rgba(255,255,255,.3); color: #FFFFFF; padding: 0 2px; border-
   <main id="app"><div class="spinner"></div></main>
 
   <footer class="footer">
-    <div class="container footer-grid">
-      <div>
-        <h4>1000 Claude Skills Library</h4>
-        <p>GetPaidToBeYouOnline</p>
-        <p>@girlbossgrowth</p>
-        <p>getpaidtobeyou.online</p>
+    <div class="container footer-simple">
+      <h4>Join my free Skool communities</h4>
+      <div class="footer-skool">
+        <a class="btn" href="https://www.skool.com/group2-8063/about" target="_blank" rel="noopener">Learn to Earn with AI &rarr;</a>
+        <a class="btn" href="https://www.skool.com/group1-1795/about" target="_blank" rel="noopener">Digital Product CEO &rarr;</a>
       </div>
-      <div>
-        <h4>Explore</h4>
-        <a href="#browse">Browse Skills</a>
-        <a href="#install">Install Guide</a>
-      </div>
-      <div>
-        <h4>Join the Community</h4>
-        <a href="https://www.skool.com/group1-1795/about" target="_blank" rel="noopener">Digital Product CEO &rarr;</a>
-        <a href="https://www.skool.com/group2-8063/about" target="_blank" rel="noopener">Learn to Earn with AI &rarr;</a>
-        <p style="margin-top:8px">Works on the free Claude plan</p>
-      </div>
+      <p class="brand-name">GetPaidToBeYouOnline</p>
+      <p class="brand-site"><a href="https://getpaidtobeyou.online" target="_blank" rel="noopener">getpaidtobeyou.online</a></p>
     </div>
-    <div class="footer-bottom">&copy; 2026 GetPaidToBeYouOnline &middot; 1000 Claude Skills Library</div>
   </footer>
 
   <script>
